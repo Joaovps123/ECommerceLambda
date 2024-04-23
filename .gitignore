@@ -7,3 +7,7 @@
 /ApproveOrderLambda/src/ApproveOrderLambda/obj
 /ECommerceLambda/src/ECommerceLambda/bin
 /ECommerceLambda/src/ECommerceLambda/obj
+/ApproveOrderLambda.Tests/bin
+/ApproveOrderLambda.Tests/obj
+/ECommerceLambda.Domain/bin
+/ECommerceLambda.Domain/obj

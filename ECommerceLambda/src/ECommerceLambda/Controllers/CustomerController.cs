@@ -1,4 +1,4 @@
-﻿using ECommerceLambda.Models;
+﻿using ECommerceLambda.Domain.Models;
 using ECommerceLambda.Repositories;
 using Microsoft.AspNetCore.Mvc;
 

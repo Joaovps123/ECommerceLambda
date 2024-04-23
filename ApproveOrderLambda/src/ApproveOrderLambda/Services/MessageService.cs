@@ -3,25 +3,24 @@ using Amazon.SQS.Model;
 using ECommerceLambda.Domain.Models;
 using System.Text.Json;
 
-namespace ECommerceLambda.Service
+namespace ApproveOrderLambda.Services
 {
-    public class OrderService : IOrderService
+    public class MessageService : IMessageService
     {
         private readonly IAmazonSQS _sqsClient;
 
-        public OrderService(IAmazonSQS sqsClient) 
+        public MessageService(IAmazonSQS sqsClient)
         {
             _sqsClient = sqsClient;
         }
 
-        public async Task SendOrder(Order order)
+        public async Task SendMessage(Order order)
         {
             var request = new SendMessageRequest()
             {
                 MessageBody = JsonSerializer.Serialize(order),
-                QueueUrl = "" // SQS URL (created-order-sqs)
+                QueueUrl = "" // SQS URL (order-paid-sqs)
             };
-
             await _sqsClient.SendMessageAsync(request);
         }
     }

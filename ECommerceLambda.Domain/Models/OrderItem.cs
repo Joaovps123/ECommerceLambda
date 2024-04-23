@@ -1,4 +1,4 @@
-﻿namespace ECommerceLambda.Models
+﻿namespace ECommerceLambda.Domain.Models
 {
     public class OrderItem
     {
