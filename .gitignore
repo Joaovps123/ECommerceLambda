@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ApproveOrderLambda/src/ApproveOrderLambda/bin
+/ApproveOrderLambda/src/ApproveOrderLambda/obj
+/ECommerceLambda/src/ECommerceLambda/bin
+/ECommerceLambda/src/ECommerceLambda/obj
