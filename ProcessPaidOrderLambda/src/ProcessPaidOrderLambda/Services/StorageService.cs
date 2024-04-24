@@ -22,7 +22,7 @@ namespace ProcessPaidOrderLambda.Services
 
             var obj = new PutObjectRequest()
             {
-                BucketName = "", // Bucket name
+                BucketName = "invoices-issued-jvps-ecommercelambda",
                 Key = key,
                 ContentType = "application/json",
                 InputStream = new MemoryStream(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(invoice)))
