@@ -11,3 +11,7 @@
 /ApproveOrderLambda.Tests/obj
 /ECommerceLambda.Domain/bin
 /ECommerceLambda.Domain/obj
+/ProcessPaidOrderLambda/src/ProcessPaidOrderLambda/bin
+/ProcessPaidOrderLambda/src/ProcessPaidOrderLambda/obj
+/ProcessPaidOrderLambda.Tests/bin
+/ProcessPaidOrderLambda.Tests/obj
